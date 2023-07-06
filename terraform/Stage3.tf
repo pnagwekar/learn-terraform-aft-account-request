@@ -21,6 +21,7 @@ module "stage3" {
 
   custom_fields = {
     group = "stage"
+    cidr = "10.2.0.0/21"
   }
 
   account_customizations_name = "stage"

@@ -21,6 +21,7 @@ module "prod3" {
 
   custom_fields = {
     group = "prod"
+    cidr = "10.1.0.0/21"
   }
 
   account_customizations_name = "prod"
