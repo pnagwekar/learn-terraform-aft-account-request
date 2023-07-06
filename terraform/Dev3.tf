@@ -21,6 +21,7 @@ module "dev3" {
 
   custom_fields = {
     group = "non-prod"
+    cidr = "10.0.0.0/21"
   }
 
   account_customizations_name = "sandbox"
