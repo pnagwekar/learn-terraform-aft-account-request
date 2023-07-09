@@ -21,7 +21,7 @@ module "sandbox" {
 
   custom_fields = {
     group = "non-prod"
-    cidr = "10.5.0.0/21"
+    cidr = "10.3.0.0/21"
   }
 
   account_customizations_name = "sandbox"
