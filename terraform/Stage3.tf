@@ -4,7 +4,7 @@ module "stage3" {
   control_tower_parameters = {
     AccountEmail              = "pnagweka+ct-stage3-aft@amazon.com"
     AccountName               = "stage3-aft"
-    ManagedOrganizationalUnit = "AFT"
+    ManagedOrganizationalUnit = "Staging"
     SSOUserEmail              = "pnagweka+ct-mgmt@amazon.com"
     SSOUserFirstName          = "Stage3"
     SSOUserLastName           = "AFT"
