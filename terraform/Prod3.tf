@@ -4,7 +4,7 @@ module "prod3" {
   control_tower_parameters = {
     AccountEmail              = "pnagweka+ct-prod3-aft@amazon.com"
     AccountName               = "prod3-aft"
-    ManagedOrganizationalUnit = "AFT"
+    ManagedOrganizationalUnit = "Production"
     SSOUserEmail              = "pnagweka+ct-mgmt@amazon.com"
     SSOUserFirstName          = "Prod3"
     SSOUserLastName           = "AFT"
