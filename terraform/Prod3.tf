@@ -11,7 +11,10 @@ module "prod3" {
   }
 
   account_tags = {
-    "Learn Tutorial" = "AFT"
+    "Dropbox:AccountType" = "AFT"
+    "Dropbox:Owner" = "mlteam@amazon.com"
+    "Dropbox:CostCenter" = "12345"
+    "Dropbox:Division" = "ENT"
   }
 
   change_management_parameters = {
