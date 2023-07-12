@@ -2,7 +2,7 @@ module "prod2" {
   source = "./modules/aft-account-request"
 
   control_tower_parameters = {
-    AccountEmail              = "pnagweka+ct-prod2-aft@amazon.com"
+    AccountEmail              = "pnagweka+ct-prod2-Aft@amazon.com"
     AccountName               = "prod2-aft"
     ManagedOrganizationalUnit = "Production"
     SSOUserEmail              = "pnagweka+ct-mgmt@amazon.com"
@@ -13,7 +13,7 @@ module "prod2" {
   account_tags = {
     "Dropbox:AccountType" = "AFT"
     "Dropbox:Owner" = "mlteam@amazon.com"
-    "Dropbox:CostCenter" = "0123456"
+    "Dropbox:CostCenter" = "123456"
     "Dropbox:Division" = "ENT"
   }
 
