@@ -13,7 +13,7 @@ module "prod3" {
   account_tags = {
     "Dropbox:AccountType" = "AFT"
     "Dropbox:Owner" = "mlteam@amazon.com"
-    "Dropbox:CostCenter" = "12345"
+    "Dropbox:CostCenter" = "123456"
     "Dropbox:Division" = "ENT"
   }
 
