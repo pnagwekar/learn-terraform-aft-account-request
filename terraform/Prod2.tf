@@ -2,7 +2,7 @@ module "prod2" {
   source = "./modules/aft-account-request"
 
   control_tower_parameters = {
-    AccountEmail              = "pnagweka+ct-prod2-Aft@amazon.com"
+    AccountEmail              = "pnagweka+ct-prod2-aft@amazon.com"
     AccountName               = "prod2-aft"
     ManagedOrganizationalUnit = "Production"
     SSOUserEmail              = "pnagweka+ct-mgmt@amazon.com"
